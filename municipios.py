@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-defaultmunicipio = "Toledo"
+defaultmunicipio = "Madrid"
 
 nombremunicipio = list()
 urlmunicipio = list()
