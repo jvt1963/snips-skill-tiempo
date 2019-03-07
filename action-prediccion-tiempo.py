@@ -159,7 +159,7 @@ def intent_received(hermes, intentMessage):
             fr_fecha = intentMessage.slots.Fecha[0].raw_value
 
         try:
-            if isinstance(tmp, hermes_python.ontology.InstantTimeValue):
+            if isinstance(tmp, hermes_python.ontology.dialogue.InstantTimeValue):
                 val = tmp.value[:-7]
                 diapred = val[0:10]
         except UnboundLocalError:
